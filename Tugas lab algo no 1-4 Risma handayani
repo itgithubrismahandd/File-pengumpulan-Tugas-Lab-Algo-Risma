@@ -1,0 +1,47 @@
+Tugas Lab Algoritma pemrograman dan Struktur Data
+Nama : Risma Handayani
+Kelas : TI-22-PB
+Dibuat tanggal : Sabtu,10 september 2022
+
+1.	Sebutkan perbedaan antara interpreter dengan compiler di C++?
+Jawaban:
+Perbedaannya adalah Interpreter akan langsung mengeksekusi instruksi yang ditulis dalam bahasa pemrograman atau scripting tanpa sebelumnya mengubahnya menjadi kode objek seperti compiler. Sedangkan Compiler mengambil seluruh program dan mengubahnya menjadi kode objek yang biasanya disimpan dalam file. Kode objek juga direferensikan sebagai kode binary (1 dan 0) dan dapat langsung dieksekusi oleh mesin setelah proses linking
+Ketika menggunakan interpreter :
+-	Mengonversi source code menjadi machine code secara langsung ketika program dijalankan (tidak butuh linker untuk menggabungkan kode objek)
+-	Membaca statement satu per satu dan translatenya
+-	Biasa execution time lebih lambat
+-	Lebih efisien memory karena tidak ada file extra yang akan dibuat selama proses translation
+-	Kode program tidak dapat dirahasiakan
+-	Bahasa pemrograman: Python, Ruby dan Javascript
+Ketika menggunakan compiler:
+-	Kode sumber akan dikonversi menjadi machine code (membuat berkas executable) sebelum program tersebut dijalankan
+-	Membaca seluruh program lalu ngetranslate secara kesuluruhan
+-	Bisa memakan memory karena akan menghasilkan file saat proses translation
+-	Bahasa pemrograman: C++, Java , C
+
+ 
+2.	Apa saja kegunaan dari C++?
+1.	Memudahkan Pembuatan Aplikasi
+2.	Ukuran Sebuah Program Bisa Lebih Kecil
+3.	Menguraikan Perintah Menjadi Lebih Sederhana
+4.	Mencegah Terjadinya Perulangan
+5.	Dapat Menggunakan Kode yang Sama Meskipun Berbeda Aplikas
+6.	Dapat Memecah Bagian-bagian Aplikasi
+7.	Dapat Menyembunyikan Fitur-fitur Dari Sisi Pengguna
+8.	Dapat Melacak Kesalahan Dengan Mudah
+
+Kegunaan dari Bahasa pemrograman berdasarkan sumber : https://dosenit.com/kuliah-it/pemrograman/fungsi-pemrograman-dasar-c
+3.	Mengapa kita perlu mempelajari C++?
+Jawaban:
+Karena Bahasa C++ adalah Bahasa pemrograman dasar yang wajib diketahui dan dikuasai. Dengan mempelajari C++ bisa digunakan untuk  rekayasa perangkat lunak untuk proyek komputasi kelas atas, program penambangan cryptocurrency, dan mengembangkan sistem operasi dan perangkat lunak lain untuk perangkat seluler. Bahasa C++ merupakan Bahasa yang paling sulit sehingga dikategorikan sebagai Bahasa tingkat universal/ menengah bisa keatas ataupun keatas, Selain itu dengan mempelajari Bahasa pemrograman c++ dapat memudahkan Ketika akan mempelajari Bahasa pemrograman yang lainnya, oleh sebab itu, kita perlu belajar C++ untuk mengabstraksi cara kerja mesin sehingga tahu Bahasa apa yang digunakan mesin dalam computer. juga Bahasa c++ merupakan Bahasa pemrograman yang kompleks dan dapat digunakan diberbagai 
+platform (multi platform), misalnya Windows, Linux, dan macOs.
+
+4.	Bagaimana bahasa pemrograman C dan C++ berkomunikasi dengan hardware?
+Jawaban:
+Dalam konsep pemrograman, Terdapat instruksi yang ditulis dengan Bahasa pemrograman ini disebut juga sebagai source code. Nantinya source code atau “code” tersebut harus ditranslate menjadi machine code agar bisa dieksekusi oleh hardware instruksi yang dibuat ditext editor seperti notepad ++(penyunting text dan kode sumber yang berjalan seperti disistem operasi windows) yang kemudian akan digunakan oleh computer untuk membentuk program C++.
+
+5.	Push 3 versi file pemrograman hello world yang sudah anda buat kedalam repository github menggunakan git dash.
+LINK GITHUB
+
+6.	Buatlah program mencetak tulisan “Belajar koding dikelas algoritma” sebanyak 5 kali dengan Bahasa C dan C++!
+LINK GITHUB
